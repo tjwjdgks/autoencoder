@@ -1,0 +1,672 @@
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='ml20m', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 20276], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-21', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.45568 (172 epochs) -
+NDCG@100: 0.45994(0.0022)  |  Loss: 272.27
+NDCG@20: 0.37364(0.0024)   |  RE: 144.32
+NDCG@10: 0.36247(0.0027)   |  KL: 127.95
+Recall@50: 0.55186(0.0028) |  Recall@5: 0.35433(0.0030)
+Recall@20: 0.41752(0.0027) |  Recall@1: 0.45946(0.0052)
+Recall@10: 0.36266(0.0026)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='ml20m', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=450, input_size=[1, 1, 20276], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-21', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.45628 (262 epochs) -
+NDCG@100: 0.45959(0.0021)  |  Loss: 273.04
+NDCG@20: 0.37445(0.0024)   |  RE: 146.22
+NDCG@10: 0.36310(0.0027)   |  KL: 126.82
+Recall@50: 0.55493(0.0028) |  Recall@5: 0.35700(0.0030)
+Recall@20: 0.42016(0.0027) |  Recall@1: 0.45336(0.0052)
+Recall@10: 0.36436(0.0027)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='ml20m', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=500, input_size=[1, 1, 20276], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-22', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.45599 (208 epochs) -
+NDCG@100: 0.45952(0.0022)  |  Loss: 268.33
+NDCG@20: 0.37382(0.0024)   |  RE: 143.69
+NDCG@10: 0.36284(0.0027)   |  KL: 124.64
+Recall@50: 0.55036(0.0028) |  Recall@5: 0.35661(0.0030)
+Recall@20: 0.41820(0.0027) |  Recall@1: 0.45477(0.0052)
+Recall@10: 0.36390(0.0026)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='ml20m', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=550, input_size=[1, 1, 20276], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-22', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.45581 (232 epochs) -
+NDCG@100: 0.45987(0.0022)  |  Loss: 272.11
+NDCG@20: 0.37464(0.0024)   |  RE: 147.28
+NDCG@10: 0.36373(0.0027)   |  KL: 124.83
+Recall@50: 0.55358(0.0028) |  Recall@5: 0.35530(0.0030)
+Recall@20: 0.41876(0.0027) |  Recall@1: 0.46011(0.0052)
+Recall@10: 0.36499(0.0027)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='ml20m', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 20276], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-22', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.45516 (246 epochs) -
+NDCG@100: 0.46013(0.0022)  |  Loss: 281.44
+NDCG@20: 0.37426(0.0024)   |  RE: 149.61
+NDCG@10: 0.36295(0.0026)   |  KL: 131.83
+Recall@50: 0.55261(0.0028) |  Recall@5: 0.35849(0.0030)
+Recall@20: 0.41842(0.0027) |  Recall@1: 0.46142(0.0052)
+Recall@10: 0.36330(0.0026)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=450, input_size=[1, 1, 5739], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.23128 (178 epochs) -
+NDCG@100: 0.23391(0.0095)  |  Loss: 152.65
+NDCG@20: 0.17742(0.0095)   |  RE: 134.96
+NDCG@10: 0.16028(0.0095)   |  KL: 17.69
+Recall@50: 0.30695(0.0133) |  Recall@5: 0.14648(0.0095)
+Recall@20: 0.22396(0.0116) |  Recall@1: 0.21130(0.0187)
+Recall@10: 0.17007(0.0101)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=500, input_size=[1, 1, 5739], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.23261 (150 epochs) -
+NDCG@100: 0.23407(0.0097)  |  Loss: 147.36
+NDCG@20: 0.17635(0.0097)   |  RE: 132.66
+NDCG@10: 0.16460(0.0098)   |  KL: 14.70
+Recall@50: 0.31650(0.0137) |  Recall@5: 0.15112(0.0099)
+Recall@20: 0.21683(0.0115) |  Recall@1: 0.20921(0.0186)
+Recall@10: 0.17706(0.0102)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=550, input_size=[1, 1, 5739], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.23020 (150 epochs) -
+NDCG@100: 0.23527(0.0094)  |  Loss: 148.38
+NDCG@20: 0.17644(0.0096)   |  RE: 132.38
+NDCG@10: 0.15990(0.0097)   |  KL: 16.01
+Recall@50: 0.32287(0.0132) |  Recall@5: 0.14463(0.0097)
+Recall@20: 0.22297(0.0117) |  Recall@1: 0.20711(0.0186)
+Recall@10: 0.16997(0.0103)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 5739], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.23171 (150 epochs) -
+NDCG@100: 0.23177(0.0095)  |  Loss: 150.42
+NDCG@20: 0.17073(0.0095)   |  RE: 133.54
+NDCG@10: 0.15713(0.0096)   |  KL: 16.88
+Recall@50: 0.31632(0.0136) |  Recall@5: 0.14770(0.0096)
+Recall@20: 0.20771(0.0113) |  Recall@1: 0.19874(0.0183)
+Recall@10: 0.16284(0.0101)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=650, input_size=[1, 1, 5739], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.23313 (150 epochs) -
+NDCG@100: 0.23085(0.0093)  |  Loss: 144.04
+NDCG@20: 0.16884(0.0094)   |  RE: 129.93
+NDCG@10: 0.15631(0.0097)   |  KL: 14.11
+Recall@50: 0.31637(0.0134) |  Recall@5: 0.14250(0.0098)
+Recall@20: 0.20779(0.0113) |  Recall@1: 0.21130(0.0187)
+Recall@10: 0.16353(0.0100)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=700, input_size=[1, 1, 5739], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.23411 (150 epochs) -
+NDCG@100: 0.23517(0.0095)  |  Loss: 146.52
+NDCG@20: 0.17589(0.0095)   |  RE: 130.93
+NDCG@10: 0.16041(0.0096)   |  KL: 15.59
+Recall@50: 0.32240(0.0135) |  Recall@5: 0.14745(0.0097)
+Recall@20: 0.21941(0.0116) |  Recall@1: 0.21967(0.0190)
+Recall@10: 0.16832(0.0101)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=450, input_size=[1, 1, 5739], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=200)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.23263 (150 epochs) -
+NDCG@100: 0.23902(0.0098)  |  Loss: 134.42
+NDCG@20: 0.17776(0.0099)   |  RE: 129.97
+NDCG@10: 0.16839(0.0101)   |  KL: 4.44
+Recall@50: 0.32333(0.0137) |  Recall@5: 0.15377(0.0102)
+Recall@20: 0.20824(0.0114) |  Recall@1: 0.23849(0.0195)
+Recall@10: 0.17123(0.0102)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=500, input_size=[1, 1, 5739], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=200)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.23047 (150 epochs) -
+NDCG@100: 0.23409(0.0094)  |  Loss: 135.85
+NDCG@20: 0.17406(0.0094)   |  RE: 130.01
+NDCG@10: 0.15994(0.0095)   |  KL: 5.84
+Recall@50: 0.32396(0.0135) |  Recall@5: 0.14487(0.0095)
+Recall@20: 0.21525(0.0115) |  Recall@1: 0.21757(0.0189)
+Recall@10: 0.16713(0.0098)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=550, input_size=[1, 1, 5739], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=200)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.23037 (150 epochs) -
+NDCG@100: 0.23676(0.0096)  |  Loss: 132.04
+NDCG@20: 0.17785(0.0096)   |  RE: 130.12
+NDCG@10: 0.16539(0.0099)   |  KL: 1.92
+Recall@50: 0.31626(0.0134) |  Recall@5: 0.15115(0.0099)
+Recall@20: 0.21942(0.0116) |  Recall@1: 0.23013(0.0193)
+Recall@10: 0.17173(0.0103)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 5739], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=200)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.23285 (150 epochs) -
+NDCG@100: 0.23400(0.0094)  |  Loss: 135.15
+NDCG@20: 0.17762(0.0096)   |  RE: 131.06
+NDCG@10: 0.15944(0.0097)   |  KL: 4.09
+Recall@50: 0.31503(0.0135) |  Recall@5: 0.14564(0.0096)
+Recall@20: 0.22485(0.0118) |  Recall@1: 0.21130(0.0187)
+Recall@10: 0.16589(0.0100)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=650, input_size=[1, 1, 5739], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=200)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.22960 (150 epochs) -
+NDCG@100: 0.23480(0.0095)  |  Loss: 136.89
+NDCG@20: 0.17762(0.0095)   |  RE: 129.74
+NDCG@10: 0.16321(0.0096)   |  KL: 7.15
+Recall@50: 0.31439(0.0133) |  Recall@5: 0.15136(0.0098)
+Recall@20: 0.22149(0.0117) |  Recall@1: 0.21339(0.0188)
+Recall@10: 0.17367(0.0102)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=450, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.31741 (150 epochs) -
+NDCG@100: 0.31535(0.0126)  |  Loss: 87.69
+NDCG@20: 0.22236(0.0129)   |  RE: 83.10
+NDCG@10: 0.20290(0.0135)   |  KL: 4.60
+Recall@50: 0.43774(0.0166) |  Recall@5: 0.19278(0.0144)
+Recall@20: 0.28294(0.0154) |  Recall@1: 0.25333(0.0252)
+Recall@10: 0.22069(0.0145)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=500, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.32009 (183 epochs) -
+NDCG@100: 0.32709(0.0127)  |  Loss: 99.83
+NDCG@20: 0.23560(0.0133)   |  RE: 83.26
+NDCG@10: 0.21233(0.0140)   |  KL: 16.57
+Recall@50: 0.44443(0.0164) |  Recall@5: 0.19789(0.0146)
+Recall@20: 0.30070(0.0160) |  Recall@1: 0.28000(0.0260)
+Recall@10: 0.22712(0.0149)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=450, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.31741 (150 epochs) -
+NDCG@100: 0.31535(0.0126)  |  Loss: 87.69
+NDCG@20: 0.22236(0.0129)   |  RE: 83.10
+NDCG@10: 0.20290(0.0135)   |  KL: 4.60
+Recall@50: 0.43774(0.0166) |  Recall@5: 0.19278(0.0144)
+Recall@20: 0.28294(0.0154) |  Recall@1: 0.25333(0.0252)
+Recall@10: 0.22069(0.0145)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=500, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.32009 (183 epochs) -
+NDCG@100: 0.32709(0.0127)  |  Loss: 99.83
+NDCG@20: 0.23560(0.0133)   |  RE: 83.26
+NDCG@10: 0.21233(0.0140)   |  KL: 16.57
+Recall@50: 0.44443(0.0164) |  Recall@5: 0.19789(0.0146)
+Recall@20: 0.30070(0.0160) |  Recall@1: 0.28000(0.0260)
+Recall@10: 0.22712(0.0149)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=550, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.31575 (150 epochs) -
+NDCG@100: 0.32066(0.0126)  |  Loss: 92.43
+NDCG@20: 0.22880(0.0128)   |  RE: 82.61
+NDCG@10: 0.20011(0.0136)   |  KL: 9.82
+Recall@50: 0.44973(0.0167) |  Recall@5: 0.19767(0.0141)
+Recall@20: 0.29230(0.0153) |  Recall@1: 0.26667(0.0256)
+Recall@10: 0.20473(0.0139)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.32414 (150 epochs) -
+NDCG@100: 0.32579(0.0130)  |  Loss: 99.44
+NDCG@20: 0.23231(0.0132)   |  RE: 81.28
+NDCG@10: 0.20878(0.0139)   |  KL: 18.17
+Recall@50: 0.45234(0.0172) |  Recall@5: 0.18767(0.0141)
+Recall@20: 0.29523(0.0158) |  Recall@1: 0.27667(0.0259)
+Recall@10: 0.21737(0.0141)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=650, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.31452 (150 epochs) -
+NDCG@100: 0.32503(0.0129)  |  Loss: 97.94
+NDCG@20: 0.23212(0.0133)   |  RE: 81.31
+NDCG@10: 0.21354(0.0140)   |  KL: 16.62
+Recall@50: 0.44231(0.0166) |  Recall@5: 0.19661(0.0145)
+Recall@20: 0.28614(0.0153) |  Recall@1: 0.27333(0.0258)
+Recall@10: 0.22436(0.0144)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=700, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.32223 (150 epochs) -
+NDCG@100: 0.32492(0.0127)  |  Loss: 95.79
+NDCG@20: 0.22745(0.0129)   |  RE: 82.39
+NDCG@10: 0.20926(0.0138)   |  KL: 13.41
+Recall@50: 0.44592(0.0174) |  Recall@5: 0.19283(0.0145)
+Recall@20: 0.27873(0.0148) |  Recall@1: 0.28333(0.0261)
+Recall@10: 0.21805(0.0143)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=450, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=200)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.31517 (150 epochs) -
+NDCG@100: 0.32314(0.0127)  |  Loss: 86.27
+NDCG@20: 0.22562(0.0131)   |  RE: 82.27
+NDCG@10: 0.20686(0.0137)   |  KL: 4.00
+Recall@50: 0.44846(0.0171) |  Recall@5: 0.19478(0.0145)
+Recall@20: 0.27861(0.0153) |  Recall@1: 0.27333(0.0258)
+Recall@10: 0.21692(0.0143)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=500, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=200)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.31516 (150 epochs) -
+NDCG@100: 0.31581(0.0125)  |  Loss: 82.61
+NDCG@20: 0.22244(0.0125)   |  RE: 84.00
+NDCG@10: 0.20051(0.0133)   |  KL: -1.39
+Recall@50: 0.43483(0.0168) |  Recall@5: 0.18539(0.0143)
+Recall@20: 0.28428(0.0148) |  Recall@1: 0.26000(0.0254)
+Recall@10: 0.21345(0.0140)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=550, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=200)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.31756 (150 epochs) -
+NDCG@100: 0.32288(0.0127)  |  Loss: 91.84
+NDCG@20: 0.22858(0.0131)   |  RE: 83.14
+NDCG@10: 0.20916(0.0137)   |  KL: 8.70
+Recall@50: 0.44980(0.0172) |  Recall@5: 0.19994(0.0142)
+Recall@20: 0.28805(0.0160) |  Recall@1: 0.25333(0.0252)
+Recall@10: 0.22421(0.0145)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=200)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.31786 (150 epochs) -
+NDCG@100: 0.32929(0.0131)  |  Loss: 98.66
+NDCG@20: 0.23596(0.0135)   |  RE: 81.64
+NDCG@10: 0.20777(0.0142)   |  KL: 17.02
+Recall@50: 0.45929(0.0166) |  Recall@5: 0.19839(0.0148)
+Recall@20: 0.30153(0.0159) |  Recall@1: 0.27333(0.0258)
+Recall@10: 0.21237(0.0145)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=650, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=200)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.31684 (158 epochs) -
+NDCG@100: 0.31777(0.0126)  |  Loss: 100.25
+NDCG@20: 0.22474(0.0130)   |  RE: 80.65
+NDCG@10: 0.20363(0.0136)   |  KL: 19.60
+Recall@50: 0.44264(0.0164) |  Recall@5: 0.19317(0.0140)
+Recall@20: 0.28414(0.0157) |  Recall@1: 0.24667(0.0249)
+Recall@10: 0.21303(0.0142)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=700, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=150, z2_size=200)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.31466 (150 epochs) -
+NDCG@100: 0.31049(0.0123)  |  Loss: 87.11
+NDCG@20: 0.21818(0.0126)   |  RE: 83.49
+NDCG@10: 0.20164(0.0134)   |  KL: 3.62
+Recall@50: 0.44362(0.0166) |  Recall@5: 0.18394(0.0138)
+Recall@20: 0.27492(0.0152) |  Recall@1: 0.23667(0.0246)
+Recall@10: 0.22198(0.0144)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=450, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.31822 (158 epochs) -
+NDCG@100: 0.32475(0.0128)  |  Loss: 90.85
+NDCG@20: 0.23039(0.0131)   |  RE: 83.92
+NDCG@10: 0.20769(0.0139)   |  KL: 6.93
+Recall@50: 0.44246(0.0173) |  Recall@5: 0.19978(0.0142)
+Recall@20: 0.28818(0.0153) |  Recall@1: 0.26667(0.0256)
+Recall@10: 0.21396(0.0142)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=500, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.31741 (163 epochs) -
+NDCG@100: 0.31731(0.0128)  |  Loss: 95.56
+NDCG@20: 0.22686(0.0131)   |  RE: 82.26
+NDCG@10: 0.20199(0.0140)   |  KL: 13.30
+Recall@50: 0.44968(0.0171) |  Recall@5: 0.19122(0.0145)
+Recall@20: 0.28718(0.0149) |  Recall@1: 0.25333(0.0252)
+Recall@10: 0.21390(0.0145)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=550, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.32217 (150 epochs) -
+NDCG@100: 0.32364(0.0128)  |  Loss: 96.98
+NDCG@20: 0.22693(0.0131)   |  RE: 82.54
+NDCG@10: 0.20754(0.0138)   |  KL: 14.44
+Recall@50: 0.45030(0.0167) |  Recall@5: 0.19667(0.0146)
+Recall@20: 0.28394(0.0156) |  Recall@1: 0.25667(0.0253)
+Recall@10: 0.22026(0.0146)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.31756 (150 epochs) -
+NDCG@100: 0.32244(0.0129)  |  Loss: 94.67
+NDCG@20: 0.23003(0.0133)   |  RE: 81.26
+NDCG@10: 0.20990(0.0138)   |  KL: 13.42
+Recall@50: 0.44646(0.0168) |  Recall@5: 0.20211(0.0148)
+Recall@20: 0.28571(0.0158) |  Recall@1: 0.27667(0.0259)
+Recall@10: 0.21989(0.0139)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=650, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.31945 (156 epochs) -
+NDCG@100: 0.31953(0.0128)  |  Loss: 104.18
+NDCG@20: 0.22429(0.0133)   |  RE: 80.84
+NDCG@10: 0.20698(0.0139)   |  KL: 23.34
+Recall@50: 0.45274(0.0173) |  Recall@5: 0.19322(0.0144)
+Recall@20: 0.27890(0.0156) |  Recall@1: 0.26000(0.0254)
+Recall@10: 0.22058(0.0145)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=700, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=150)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.31619 (150 epochs) -
+NDCG@100: 0.32942(0.0129)  |  Loss: 101.30
+NDCG@20: 0.23248(0.0136)   |  RE: 81.93
+NDCG@10: 0.21514(0.0144)   |  KL: 19.37
+Recall@50: 0.45422(0.0171) |  Recall@5: 0.20717(0.0144)
+Recall@20: 0.28030(0.0158) |  Recall@1: 0.28333(0.0261)
+Recall@10: 0.22128(0.0145)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=450, input_size=[1, 1, 1163], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: Netflix(H+Vamp+Gate)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.31707 (151 epochs) -
+NDCG@100: 0.31758(0.0127)  |  Loss: 90.38
+NDCG@20: 0.22677(0.0128)   |  RE: 82.72
+NDCG@10: 0.20131(0.0137)   |  KL: 7.65
+Recall@50: 0.43346(0.0174) |  Recall@5: 0.19056(0.0143)
+Recall@20: 0.29317(0.0157) |  Recall@1: 0.24667(0.0249)
+Recall@10: 0.21536(0.0146)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 527], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)User5andProduct100', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: Netflix(H+Vamp+Gate)User5andProduct100
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.35409 (172 epochs) -
+NDCG@100: 0.33938(0.0134)  |  Loss: 65.55
+NDCG@20: 0.25305(0.0145)   |  RE: 32.37
+NDCG@10: 0.22890(0.0147)   |  KL: 33.17
+Recall@50: 0.58194(0.0207) |  Recall@5: 0.25351(0.0188)
+Recall@20: 0.40222(0.0208) |  Recall@1: 0.17402(0.0188)
+Recall@10: 0.32462(0.0199)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 527], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-01-26', no_cuda=False, no_log=False, note='Netflix(H+Vamp+Gate)User5andProduct100', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: Netflix(H+Vamp+Gate)User5andProduct100
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.35409 (172 epochs) -
+NDCG@100: 0.33938(0.0134)  |  Loss: 65.55
+NDCG@20: 0.25305(0.0145)   |  RE: 32.37
+NDCG@10: 0.22890(0.0147)   |  KL: 33.17
+Recall@50: 0.58194(0.0207) |  Recall@5: 0.25351(0.0188)
+Recall@20: 0.40222(0.0208) |  Recall@1: 0.17402(0.0188)
+Recall@10: 0.32462(0.0199)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='ml20m', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 20182], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-02-01', no_cuda=False, no_log=False, note='dataset1', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: dataset1
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.46100 (191 epochs) -
+NDCG@100: 0.45578(0.0021)  |  Loss: 275.03
+NDCG@20: 0.36811(0.0023)   |  RE: 147.08
+NDCG@10: 0.35601(0.0026)   |  KL: 127.94
+Recall@50: 0.55050(0.0028) |  Recall@5: 0.35276(0.0030)
+Recall@20: 0.41427(0.0026) |  Recall@1: 0.44938(0.0052)
+Recall@10: 0.35733(0.0026)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='ml20m', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 20242], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-02-01', no_cuda=False, no_log=False, note='dataset2', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: dataset2
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.45529 (240 epochs) -
+NDCG@100: 0.46000(0.0021)  |  Loss: 276.41
+NDCG@20: 0.37218(0.0023)   |  RE: 149.13
+NDCG@10: 0.35998(0.0026)   |  KL: 127.28
+Recall@50: 0.55639(0.0028) |  Recall@5: 0.35181(0.0029)
+Recall@20: 0.41952(0.0027) |  Recall@1: 0.44955(0.0052)
+Recall@10: 0.36307(0.0026)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='ml20m', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 20151], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-02-02', no_cuda=False, no_log=False, note='dataset3', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: dataset3
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.45676 (192 epochs) -
+NDCG@100: 0.45728(0.0021)  |  Loss: 269.91
+NDCG@20: 0.37083(0.0023)   |  RE: 144.86
+NDCG@10: 0.35955(0.0026)   |  KL: 125.05
+Recall@50: 0.54972(0.0028) |  Recall@5: 0.35471(0.0030)
+Recall@20: 0.41488(0.0026) |  Recall@1: 0.45254(0.0052)
+Recall@10: 0.36005(0.0026)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='ml20m', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 20151], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-02-02', no_cuda=False, no_log=False, note='dataset4', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: dataset4
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.46079 (172 epochs) -
+NDCG@100: 0.45706(0.0021)  |  Loss: 271.57
+NDCG@20: 0.37071(0.0023)   |  RE: 144.77
+NDCG@10: 0.35997(0.0026)   |  KL: 126.79
+Recall@50: 0.55000(0.0028) |  Recall@5: 0.35555(0.0030)
+Recall@20: 0.41572(0.0027) |  Recall@1: 0.45222(0.0052)
+Recall@10: 0.36115(0.0026)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='ml20m', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 19946], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-02-02', no_cuda=False, no_log=False, note='dataset5', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: dataset5
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.46067 (184 epochs) -
+NDCG@100: 0.45815(0.0021)  |  Loss: 269.09
+NDCG@20: 0.37127(0.0023)   |  RE: 144.83
+NDCG@10: 0.35945(0.0026)   |  KL: 124.25
+Recall@50: 0.55192(0.0028) |  Recall@5: 0.35480(0.0030)
+Recall@20: 0.41749(0.0026) |  Recall@1: 0.45048(0.0052)
+Recall@10: 0.36197(0.0026)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='ml20m', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 20154], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-02-03', no_cuda=False, no_log=False, note='dataset6', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: dataset6
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.46205 (195 epochs) -
+NDCG@100: 0.45615(0.0021)  |  Loss: 273.73
+NDCG@20: 0.36879(0.0023)   |  RE: 146.86
+NDCG@10: 0.35846(0.0026)   |  KL: 126.87
+Recall@50: 0.55077(0.0028) |  Recall@5: 0.35424(0.0030)
+Recall@20: 0.41403(0.0026) |  Recall@1: 0.44230(0.0052)
+Recall@10: 0.36214(0.0026)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='ml20m', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 20244], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-02-03', no_cuda=False, no_log=False, note='dataset7', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: dataset7
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.45824 (222 epochs) -
+NDCG@100: 0.45497(0.0021)  |  Loss: 284.52
+NDCG@20: 0.36689(0.0023)   |  RE: 154.92
+NDCG@10: 0.35633(0.0026)   |  KL: 129.60
+Recall@50: 0.54781(0.0028) |  Recall@5: 0.35318(0.0030)
+Recall@20: 0.41169(0.0026) |  Recall@1: 0.44736(0.0052)
+Recall@10: 0.35806(0.0026)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='ml20m', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 20155], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-02-03', no_cuda=False, no_log=False, note='dataset8', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: dataset8
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.45581 (229 epochs) -
+NDCG@100: 0.45572(0.0021)  |  Loss: 282.82
+NDCG@20: 0.36984(0.0023)   |  RE: 152.37
+NDCG@10: 0.35904(0.0026)   |  KL: 130.46
+Recall@50: 0.54861(0.0028) |  Recall@5: 0.35518(0.0030)
+Recall@20: 0.41607(0.0026) |  Recall@1: 0.44803(0.0052)
+Recall@10: 0.36143(0.0026)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='ml20m', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 20139], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-02-03', no_cuda=False, no_log=False, note='dataset9', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: dataset9
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.46404 (225 epochs) -
+NDCG@100: 0.45869(0.0021)  |  Loss: 278.26
+NDCG@20: 0.37200(0.0023)   |  RE: 150.00
+NDCG@10: 0.35967(0.0026)   |  KL: 128.26
+Recall@50: 0.55358(0.0028) |  Recall@5: 0.35497(0.0030)
+Recall@20: 0.41879(0.0027) |  Recall@1: 0.45157(0.0052)
+Recall@10: 0.36109(0.0026)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='ml20m', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 20233], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-02-04', no_cuda=False, no_log=False, note='dataset10', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: dataset10
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.45762 (170 epochs) -
+NDCG@100: 0.46093(0.0021)  |  Loss: 276.56
+NDCG@20: 0.37462(0.0023)   |  RE: 147.94
+NDCG@10: 0.36396(0.0026)   |  KL: 128.62
+Recall@50: 0.55590(0.0028) |  Recall@5: 0.35717(0.0030)
+Recall@20: 0.42102(0.0026) |  Recall@1: 0.45315(0.0052)
+Recall@10: 0.36711(0.0026)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=300, input_size=[1, 1, 527], input_type='binary', lr=0.0005, max_beta=0.3, model_name='baseline', model_signature='2021-02-14', no_cuda=False, no_log=False, note='VAEBASE', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: VAEBASE
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.34747 (150 epochs) -
+NDCG@100: 0.34140(0.0132)  |  Loss: 82.06
+NDCG@20: 0.25111(0.0143)   |  RE: 65.03
+NDCG@10: 0.22374(0.0147)   |  KL: 17.03
+Recall@50: 0.59748(0.0205) |  Recall@5: 0.25895(0.0189)
+Recall@20: 0.40353(0.0208) |  Recall@1: 0.16912(0.0186)
+Recall@10: 0.31548(0.0199)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=300, input_size=[1, 1, 527], input_type='binary', lr=0.0005, max_beta=0.3, model_name='baseline2', model_signature='2021-02-14', no_cuda=False, no_log=False, note='EnhanceBASVAE', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: EnhanceBASVAE
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.35235 (322 epochs) -
+NDCG@100: 0.34980(0.0138)  |  Loss: 55.60
+NDCG@20: 0.26417(0.0149)   |  RE: 55.65
+NDCG@10: 0.23190(0.0152)   |  KL: -0.04
+Recall@50: 0.60399(0.0206) |  Recall@5: 0.24473(0.0183)
+Recall@20: 0.41469(0.0209) |  Recall@1: 0.20343(0.0200)
+Recall@10: 0.30568(0.0195)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=300, input_size=[1, 1, 527], input_type='binary', lr=0.0005, max_beta=0.3, model_name='hvamp', model_signature='2021-02-14', no_cuda=False, no_log=False, note='HVAMP', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: HVAMP
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.35772 (263 epochs) -
+NDCG@100: 0.34715(0.0135)  |  Loss: 56.19
+NDCG@20: 0.25702(0.0146)   |  RE: 35.98
+NDCG@10: 0.22987(0.0150)   |  KL: 20.22
+Recall@50: 0.60709(0.0206) |  Recall@5: 0.25176(0.0189)
+Recall@20: 0.40499(0.0207) |  Recall@1: 0.19118(0.0195)
+Recall@10: 0.31314(0.0198)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=300, input_size=[1, 1, 527], input_type='binary', lr=0.0005, max_beta=0.3, model_name='baseline2', model_signature='2021-02-15', no_cuda=False, no_log=False, note='test', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: test
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.35235 (322 epochs) -
+NDCG@100: 0.34980(0.0138)  |  Loss: 55.60
+NDCG@20: 0.26417(0.0149)   |  RE: 55.65
+NDCG@10: 0.23190(0.0152)   |  KL: -0.04
+Recall@50: 0.60399(0.0206) |  Recall@5: 0.24473(0.0183)
+Recall@20: 0.41469(0.0209) |  Recall@1: 0.20343(0.0200)
+Recall@10: 0.30568(0.0195)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=300, input_size=[1, 1, 527], input_type='binary', lr=0.0005, max_beta=0.3, model_name='baseline2', model_signature='2021-02-15', no_cuda=False, no_log=False, note='test', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: test
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.35235 (322 epochs) -
+NDCG@100: 0.34980(0.0138)  |  Loss: 55.60
+NDCG@20: 0.26417(0.0149)   |  RE: 55.65
+NDCG@10: 0.23190(0.0152)   |  KL: -0.04
+Recall@50: 0.60399(0.0206) |  Recall@5: 0.24473(0.0183)
+Recall@20: 0.41469(0.0209) |  Recall@1: 0.20343(0.0200)
+Recall@10: 0.30568(0.0195)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='hadden', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=300, input_size=[1, 1, 527], input_type='binary', lr=0.0005, max_beta=0.3, model_name='baseline2', model_signature='2021-02-15', no_cuda=False, no_log=False, note='test', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: test
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.35235 (322 epochs) -
+NDCG@100: 0.34980(0.0138)  |  Loss: 55.60
+NDCG@20: 0.26417(0.0149)   |  RE: 55.65
+NDCG@10: 0.23190(0.0152)   |  KL: -0.04
+Recall@50: 0.60399(0.0206) |  Recall@5: 0.24473(0.0183)
+Recall@20: 0.41469(0.0209) |  Recall@1: 0.20343(0.0200)
+Recall@10: 0.30568(0.0195)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+Namespace(MB=100, S=5000, activation=None, batch_size=200, cuda=True, dataset_name='ml20m', dynamic_binarization=False, early_stopping_epochs=50, epochs=400, gated=True, hidden_size=600, input_size=[1, 1, 20108], input_type='binary', lr=0.0005, max_beta=0.3, model_name='baseline2', model_signature='2021-02-17', no_cuda=False, no_log=False, note='Netflix(baseline2)', num_layers=2, number_components=1000, pseudoinputs_mean=0.05, pseudoinputs_std=0.01, seed=14, test_batch_size=1000, use_training_data_init=False, warmup=100, z1_size=200, z2_size=200)
+NOTE: Netflix(baseline2)
+FINAL EVALUATION ON TEST SET
+- BEST VALIDATION NDCG: 0.44070 (150 epochs) -
+NDCG@100: 0.43303(0.0021)  |  Loss: 352.07
+NDCG@20: 0.34508(0.0023)   |  RE: 337.33
+NDCG@10: 0.32960(0.0025)   |  KL: 14.74
+Recall@50: 0.54303(0.0028) |  Recall@5: 0.32554(0.0028)
+Recall@20: 0.40405(0.0027) |  Recall@1: 0.40060(0.0049)
+Recall@10: 0.34061(0.0026)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
